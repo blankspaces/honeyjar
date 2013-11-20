@@ -36,8 +36,12 @@ group :test, :development do
 	gem 'turn'
 	gem 'capybara'
 	gem 'rspec-rails'
-	gem 'guard-rspec'
+	gem 'guard-rspec', require: false
 end
+
+#for authentication and authorization
+gem 'devise'
+gem 'cancan'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
