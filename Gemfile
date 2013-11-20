@@ -42,6 +42,7 @@ end
 #for authentication and authorization
 gem 'devise'
 gem 'cancan'
+gem 'protected_attributes' #devise attr_accessible error fix
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
